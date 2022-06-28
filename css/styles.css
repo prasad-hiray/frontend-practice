@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.main-logo{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.navigation nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.banner-section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-section img{
+    height: 500px;
+    width: 700px;
+}
+
+.text-section{
+    padding: 40px;
+}
+
+.text-section h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.text-section p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.text-section .email-input{
+    border: 1px solid #000;
+    padding: 5px;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.text-section .get-btn{
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    margin-left: 8px;
+    border: none;
+    color: #fff;
+    background-color: rgb(52, 145, 245);
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 60px 40px;
+    background-color: #F9F8FE;
+}
+
+.work-link{
+    color: rgb(79, 132, 0);
+}
+
+.testimonial{
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 400px;
+    -webkit-box-shadow: 0px 0px 38px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 38px -19px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 38px -19px rgba(0,0,0,0.75);    
+}
+
+.testimonial .quote{
+    font-size: 30px;
+}
+
+.testimonial p{
+    font-size: 13px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.text-person{
+    display: flex;
+}
+
+.text-person img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.person-desc{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.person-desc h5{
+    font-size: 14px;
+}
+
+.person-desc p{
+    font-size: 12px;
+}
+
+.second-section .text-section h2{
+    margin-top: 0;
+}
+
+.newsletter{
+    background-color: #565989;
+    color: #fff;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsletter .access-div h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.newsletter .access-div p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.newsletter .input-div .input-div-input{
+    width: 400px;
+    border: none;
+    height: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.newsletter .input-div .get-started-btn{
+    border: none;
+    background-color: rgb(52, 145, 245);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.footer-div{
+    background-color: #06043B;
+    padding: 10px 40px;
+}
+
+.footer-div h6{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
